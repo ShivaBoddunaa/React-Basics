@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Posts from './pages/posts';
 import Todos from './pages/Todos';
 import Users from './pages/users';
+import Albums from './pages/Albums';
 
 function App() {
 return(
@@ -16,6 +17,7 @@ return(
     <Route path="/posts" element={<Posts/>}></Route>
     <Route path="/todos" element={<Todos/>}></Route>
     <Route path="/users" element={<Users/>}></Route>
+    <Route path="/albums"element={<Albums/>}></Route>
 
   </Routes>
 )
