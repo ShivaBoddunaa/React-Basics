@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Hero from '../src/components/Hero.jsx'
 import Header from '../src/components/Header.jsx'
+import Sidebar from '../src/components/sidebar.jsx'
 
 //prpos - data that parent passes to child component
 //Task() is just a function
@@ -19,6 +20,7 @@ function App() {
 <>
    <Hero/>
    <Header/>
+   <Sidebar/>
 
 
 </>
